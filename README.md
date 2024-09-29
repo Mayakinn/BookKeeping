@@ -2,7 +2,7 @@
 Spring boot REST API made for storing information about books. 
 
 ### Before running the code
-It's is important to have a database up and running. In this project I used a MySQL server with a database uploaded with the MySQL Workbench. There's an SQL dump, that I have left next to the README file. After setting everything up, you need to change these properties in the application.properties file - spring.datasource.username=(YOUR USERNAME), spring.datasource.password=(YOUR PASSWORD).
+It's is important to have a database up and running. In this project I used a MySQL server with a database uploaded with the MySQL Workbench. There's an SQL dump, that I have left next to the README file, create a Schema named "mydb" and import the folder. After setting everything up, you need to change these properties in the application.properties file - spring.datasource.username=(YOUR USERNAME), spring.datasource.password=(YOUR PASSWORD).
 
 ### Dependencies I've used
 Lombok,
